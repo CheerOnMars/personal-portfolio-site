@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica, sans-serif;
+  /* margin: 0; */
+}
+
+
+
+.site-container {
+    min-height: 900px;
+}
+
+nav {
+  height: 5vh;
+  border-bottom: 1px solid black;
+}
+
+nav ul  {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.site-container > section {
+  margin: 50px auto;
+}
+
+.intro-content {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+}
+
+.intro-content h1 {
+}
+
+.intro-content span {
+  display: block;
+  font-style: italic;
+}
+
+.intro-content strong {
+  font-weight: bolder;
+  text-decoration: dotted;
+}
+
+.detail-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+padding-left: 20px;
+padding-right: 20px;
+}
+.detail-container  h2 {
+  text-align: center;
+}
+.detail-container > section {
+  padding: 25px;
+  padding-bottom: 100px;
+  background-color: rgb(107, 170, 70);
+  color: white;
+  border-right: 5px dotted white;
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.detail-container > section:last-child {
+  border-right: 0;
+}
+
+.detail-container ul {
+  list-style-type: none;
+}
+.article-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.article-container  h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.article-container > section {
+  padding: 25px;
+  padding-bottom: 50px;
+  background-color: rgb(107, 170, 70);
+  color: white;
+  border-right: 5px ;
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.portfolio-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+  padding-top: 1em;
+}
+
+#footer {
+  border-top: 1px solid black;
+  text-align: center;
+
+}
+#footer ul {
+  /* display: grid;
+  grid-template: 10vh / 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none; */
+
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 2em
+}
+
+/*
+.site-container nav ul  {
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+}
+
+
+
+
+
+*/
